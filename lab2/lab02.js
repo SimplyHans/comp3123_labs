@@ -32,10 +32,11 @@ console.log(capitalizedColors)
 
 // #4
 var values = [1, 60, 34, 30, 20, 5]
-const filterLessThan20 = (array) =>{
+const lessThan = (array) =>{
     return array.filter(value => value < 20)
 }
-console.log(filterLessThan20(values))
+const filterLessThan20 = lessThan(values)
+console.log(filterLessThan20)
 
 // #5
 var array = [1, 2, 3, 4]
